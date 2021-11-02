@@ -1,0 +1,145 @@
+body {
+    background-color: gray;
+}
+
+
+h2,h4 {
+    color: blanchedalmond;
+    margin-left: 50px;
+}
+
+.papper {
+    background-color: white;
+    height: 1270px;
+    width: 1100px;
+    margin-left: 100px;
+}
+
+.profile {
+    background-color: black;
+    height: 250px;
+    width: 1100px;
+    display: flex;
+    /* background-image: url("images.jpeg"); */
+}
+
+.image-div {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.name-div {
+    text-align: left;
+    width: 250px;
+    height: 10px;
+}
+
+.image-follow-div {
+    width: 100px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.image-visit-div {
+    width: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+
+.display-div {
+    grid-template-areas: "career-objective education"
+                            "special experiance"
+                            "skills software";
+    display: grid;
+    margin: auto;
+}
+
+.box1 {
+    border: 1px solid navy;
+    height: 250px;
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.box2 {
+    border: 1px solid navy;
+    height: 250px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.hello {
+    grid-area: "career-objective";
+}
+
+.edu {
+    grid-area: "education";
+}
+
+.spcl {
+    grid-area: "special";
+}
+
+.exp {
+    grid-area: "experiance";
+}
+
+.skl {
+    grid-area: "skills";
+    display: flex;
+}
+
+.sft {
+    grid-area: "software";
+}
+
+.hob-ies {
+    grid-template-areas: "hobbies";
+    display: grid;
+}
+
+.hbs {
+    grid-area: "hobbies";
+    border: 1px solid navy;
+    height: 200px;
+    width: 1070px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.text{
+    margin-left: 10px;
+}
+
+.container {
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    margin-left: 10px;
+ }
+
+.vscode, .pshop {
+     width: 50%;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+ }
+ 
+ .vscode {
+    width: 90%;
+    background-color: #000000;
+ }
+
+ .pshop {
+    width: 80%;
+    background-color: #000000;
+ }
